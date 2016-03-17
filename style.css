@@ -1,0 +1,50 @@
+/*
+body{
+  text-align: center;
+}
+section{
+  width: 80%;
+  height: 100%;
+  background: aqua;
+  margin: auto;
+  padding: 10px;
+}
+
+.one{
+  width: 15%;
+  height: auto;
+  background: gray;
+  margin-right: 15px;
+  float: left;
+  position: fixed;
+}
+
+.two{
+  margin-left: 15%;
+  height: auto;
+  background: black;
+}
+
+
+
+
+
+
+body{
+  text-align: center;
+}
+section{
+  display: flex;;
+}*/
+
+.one{
+  flex: 0 0 65%;
+  background: gray;
+  float: left;
+  margin-right: 20px;
+}
+
+.two{
+  flex: 1;
+  background: gray;
+}

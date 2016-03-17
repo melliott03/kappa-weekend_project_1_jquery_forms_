@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Employees Information</title>
+
+    <!-- // TODO: first have an input form that collects: The Employee's First and Last name The Employee's ID Number The Employee's Job Title The Employee's Salary (Yearly) -->
+
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" type"text/css" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="one">
+      </div>
+      <div class="two">
+        <p class="combined-monthly-salary">Combined monthly salary of employees:</p>
+    <div class="form">
+    <h3>Enter Employee's Details</h3>
+    <div class="form_field">
+    <form id="employeeForm">
+      <label for="name">Name (first last):</label>
+      <input type="text" id="name" name="name" placeholder="employee's name"/><br>
+
+      <label for="salary">Salary:</label>
+      <input type="number" id="salary" name="salary" placeholder="employee's salary" required step=".01"/><br>
+
+      <label for="id">ID:</label>
+      <input type="number" id="id" name="id" placeholder="employee's ID"/><br>
+
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" placeholder="employee's title"/><br>
+
+      <input type="submit" value="Submit employee" /><br>
+
+    </form>
+    </div>
+    <div class='employeeinfo'>
+    </div>
+    </section>
+  </body>
+</html>
